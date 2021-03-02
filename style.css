@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #2988da;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    font-size: xx-large;
+}
+.navLeft{
+    flex: 1;
+    padding-left: 10%;
+}
+.navText{
+    color: white;
+    padding-right: 5%;
+}
+.navText:hover{
+    cursor: pointer;
+}
+.navRight{
+    display: flex;
+    flex: 1;
+    vertical-align: middle;
+    align-items: center;
+}
+.signupButton{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+}
+.landingImage{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+.landingContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.input{
+    height: 30px;
+    border: none;
+    padding-right: 7px;
+}
+.tryitButton{
+    background-color: #95bc2b;
+    border: none;
+    width: 360px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #2988da;
+    width: 100vw;
+    color: white;
+}
+.footerItems{
+    padding-right: 6%;
+    margin-top: 1%;
+}
+.footerItems:hover{
+    cursor: pointer;
+}
